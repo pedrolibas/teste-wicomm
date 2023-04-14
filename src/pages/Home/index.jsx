@@ -1,0 +1,10 @@
+import { Header } from "../../components/Header";
+import { ContainerHome } from "./style";
+
+export const Home = () => {
+  return (
+    <ContainerHome>
+      <Header />
+    </ContainerHome>
+  );
+};
