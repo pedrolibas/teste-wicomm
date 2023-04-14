@@ -117,7 +117,7 @@ section {
 }
 body {
 	line-height: 1;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Barlow', sans-serif;
 }
 ol,
 ul {
