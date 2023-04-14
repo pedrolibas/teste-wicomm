@@ -1,5 +1,10 @@
+import { Header } from "../../components/Header";
 import { ContainerHome } from "./style";
 
 export const Home = () => {
-  return <ContainerHome></ContainerHome>;
+  return (
+    <ContainerHome>
+      <Header />
+    </ContainerHome>
+  );
 };

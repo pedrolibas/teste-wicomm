@@ -17,7 +17,6 @@ export const GlobalStyle = createGlobalStyle`
 .title{
     font-weight: 700;
     font-size: 2.5rem;
-    color: #000000;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
