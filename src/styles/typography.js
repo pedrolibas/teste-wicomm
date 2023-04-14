@@ -3,73 +3,73 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalTypography = createGlobalStyle`
 .type1{
 font-weight: 700;
-font-size: .75rem;
+font-size: 12px;
 }
 
 .type2{
 font-weight: 500;
-font-size: .625rem;
+font-size: 10px;
 }
 
 .type3{
 font-weight: 700;
-font-size: .875rem;
+font-size: 14px;
 }
 
 .type4{
 font-weight: 500;
-font-size: .75rem;
+font-size: 12px;
 }
 
 .type5{
 font-weight: 700;
-font-size: 3.5rem;
+font-size: 56px;
 font-style: italic;
 }
 
 .type6{
 font-weight: 400;
-font-size: 1rem;
+font-size: 16px;
 }
 
 .type7{
 font-weight: 700;
-font-size: 1rem;
+font-size: 16px;
 }
 
 .type8{
 font-weight:700 ;
-font-size: 2rem;
+font-size: 32px;
 }
 
 .type9{
 font-weight: 600;
-font-size: .75rem;
+font-size: 12px;
 }
 
 .type10{
 font-weight: 700;
-font-size: 1.375rem;
+font-size: 22px;
 }
 
 .type11{
 font-weight: 400;
-font-size: .875rem;
+font-size: 14px;
 }
 
 .type12{
 font-weight: 700;
-font-size: 2.5rem;
+font-size: 40px;
 }
 
 .type13{
 font-weight: 700;
-font-size: 2rem;
+font-size: 32px;
 }
 
 .type14{
 font-weight: 700;
-font-size: 1.125rem;
+font-size: 18px;
 }
 
 .roboto{

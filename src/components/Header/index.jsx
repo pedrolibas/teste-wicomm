@@ -1,18 +1,44 @@
 import { ContainerHeader } from "./style";
 import truckIcon from "../../assets/truck.svg";
+import logo from "../../assets/Group 1.svg";
+import magnifyingGlassIcon from "../../assets/MagnifyingGlass.svg";
+import userIcon from "../../assets/User.svg";
+import starIcon from "../../assets/star.svg";
+import shoppingCartIcon from "../../assets/ShoppingCart.svg";
 
 export const Header = () => {
   return (
     <ContainerHeader>
       <section>
-        <h2>FALE CONOSCO</h2>
+        <h2 className="type1">FALE CONOSCO</h2>
         <div>
           <img src={truckIcon} alt="" />
-          <p>FRETE GRÁTIS A PARTIR DE R$ 199,90 PARA TODO BRASIL</p>
+          <p className="type2">
+            FRETE GRÁTIS A PARTIR DE R$ 199,90 PARA TODO BRASIL
+          </p>
         </div>
-        <h3>BLOG.BLACKSKULL</h3>
+        <h3 className="type1">BLOG.BLACKSKULL</h3>
       </section>
-      <nav></nav>
+      <nav>
+        <img src={logo} alt="" className="logo" />
+        <ul>
+          <li className="type3">CATEGORIAS</li>
+          <li className="type3">VESTUÁRIO</li>
+          <li className="type3">OBJETIVOS</li>
+          <li className="type3">PROMOÇÕES</li>
+          <li className="type3">ATLETAS</li>
+          <li className="type3">ASSINATURA</li>
+        </ul>
+        <form>
+          <input type="text" placeholder="Buscar" />
+          <img src={magnifyingGlassIcon} alt="" />
+        </form>
+        <div>
+          <img src={userIcon} alt="" />
+          <img src={starIcon} alt="" />
+          <img src={shoppingCartIcon} alt="" />
+        </div>
+      </nav>
     </ContainerHeader>
   );
 };
