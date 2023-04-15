@@ -1,6 +1,6 @@
 import { ContainerHeader } from "./style";
 import truckIcon from "../../assets/truck.svg";
-import logo from "../../assets/Group 1.svg";
+import logo from "../../assets/logo.svg";
 import magnifyingGlassIcon from "../../assets/MagnifyingGlass.svg";
 import userIcon from "../../assets/User.svg";
 import starIcon from "../../assets/star.svg";

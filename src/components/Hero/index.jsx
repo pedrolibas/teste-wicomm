@@ -1,5 +1,6 @@
 import { ContainerHero } from "./style";
-import backgroundImage from "../../assets/heroImage.jpg"
+import backgroundImage from "../../assets/heroImage.jpg";
+import { Scroll } from "../Scroll";
 
 export const Hero = () => {
   return (
@@ -13,11 +14,7 @@ export const Hero = () => {
         eirmod tempor invidunt ut labore et dolore magna
       </p>
       <button className="type7">CONFIRA</button>
-      <div className="scroll">
-        <div className="line activate"></div>
-        <div className="line"></div>
-        <div className="line"></div>
-      </div>
+      <Scroll />
     </ContainerHero>
   );
 };

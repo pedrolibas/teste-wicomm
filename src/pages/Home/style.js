@@ -13,5 +13,9 @@ export const ContainerHome = styled.div`
       text-align: center;
       margin: 64px 0 24px 0;
     }
+
+    .scroll {
+      margin: 71px auto;
+    }
   }
 `;
