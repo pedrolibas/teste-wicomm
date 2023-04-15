@@ -72,6 +72,12 @@ font-weight: 700;
 font-size: 18px;
 }
 
+.type15{
+font-weight: 700;
+font-size: 32px;
+font-style: italic;
+}
+
 .roboto{
     font-family:'Roboto Condensed', sans-serif;
 }

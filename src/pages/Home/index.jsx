@@ -18,6 +18,10 @@ export const Home = () => {
           ))}
         </ListProducts>
       </section>
+      <section className="list-release">
+        <h2 className="type15">LANÇAMENTOS</h2>
+        <ListProducts></ListProducts>
+      </section>
     </ContainerHome>
   );
 };
