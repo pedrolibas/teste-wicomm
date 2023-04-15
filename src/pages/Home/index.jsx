@@ -7,6 +7,7 @@ import { CircleCard } from "../../components/CircleCard";
 import { ContainerHome } from "./style";
 import { ProductCard } from "../../components/ProductCard";
 import { Scroll } from "../../components/Scroll";
+import { CarouselPeople } from "../../components/CarouselPeople";
 
 export const Home = () => {
   return (
@@ -34,6 +35,7 @@ export const Home = () => {
         </ListProducts>
         <Scroll />
       </section>
+      <CarouselPeople />
     </ContainerHome>
   );
 };
