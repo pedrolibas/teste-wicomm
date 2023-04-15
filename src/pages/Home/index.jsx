@@ -36,6 +36,20 @@ export const Home = () => {
         <Scroll />
       </section>
       <CarouselPeople />
+      <section className="list-promotion">
+        <h2 className="type15">PROMOÇÕES</h2>
+        <ListProducts>
+          {dataReleaseProducts.map(elem => (
+            <ProductCard
+              img={elem.img}
+              name={elem.name}
+              price={elem.price}
+              installments={elem.installments}
+            />
+          ))}
+        </ListProducts>
+        <Scroll />
+      </section>
     </ContainerHome>
   );
 };
