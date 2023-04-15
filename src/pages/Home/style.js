@@ -4,7 +4,14 @@ export const ContainerHome = styled.div`
   width: 100vw;
   height: 100vh;
 
-  .list-type{
+  .list-type {
     margin-top: 56px;
+  }
+
+  .list-release {
+    h2 {
+      text-align: center;
+      margin: 64px 0 24px 0;
+    }
   }
 `;
