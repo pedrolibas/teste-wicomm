@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ContainerHero = styled.section`
   width: 100%;
   height: 548px;
+  position: relative;
 
   img {
     width: inherit;
@@ -16,7 +17,7 @@ export const ContainerHero = styled.section`
 
     color: var(--white);
 
-    position: relative;
+    position: absolute;
     top: 130px;
     left: 155px;
   }
@@ -29,8 +30,8 @@ export const ContainerHero = styled.section`
 
     color: var(--white);
 
-    position: relative;
-    top: 146px;
+    position: absolute;
+    top: 278px;
     left: 155px;
   }
 
@@ -42,8 +43,8 @@ export const ContainerHero = styled.section`
     border: none;
     border-radius: 4px;
 
-    position: relative;
-    top: 178px;
+    position: absolute;
+    top: 370px;
     left: 155px;
 
     cursor: pointer;
@@ -56,8 +57,8 @@ export const ContainerHero = styled.section`
     align-items: baseline;
     gap: 10px;
 
-    position: relative;
-    top: 268px;
+    position: absolute;
+    top: 510px;
     left: 570px;
   }
 
