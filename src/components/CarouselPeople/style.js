@@ -18,6 +18,8 @@ export const ContainerCarouselPeople = styled.section`
     position: absolute;
     top: 40px;
     left: 205px;
+
+    margin: 0;
   }
 
   strong {
