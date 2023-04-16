@@ -6,7 +6,7 @@ export const ContainerCarouselBlog = styled.section`
 
   background: linear-gradient(180deg, var(--dark3) 0%, var(--black1) 101.48%);
 
-  div {
+  .carousel-header {
     width: calc(100% - 56px - 56px);
     display: flex;
     align-items: center;
