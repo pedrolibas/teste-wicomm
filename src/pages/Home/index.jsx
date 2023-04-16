@@ -11,6 +11,7 @@ import { CarouselPeople } from "../../components/CarouselPeople";
 import { CarouselBlog } from "../../components/CarouselBlog";
 import { SectionObjective } from "../../components/SectionObjective";
 import { SectionBenefits } from "../../components/SectionBenefits";
+import { SectionAbout } from "../../components/SectionAbout";
 
 export const Home = () => {
   return (
@@ -56,6 +57,7 @@ export const Home = () => {
       <CarouselBlog />
       <SectionObjective />
       <SectionBenefits />
+      <SectionAbout />
     </ContainerHome>
   );
 };
