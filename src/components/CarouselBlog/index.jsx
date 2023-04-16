@@ -1,5 +1,6 @@
 import { dataBlog } from "../../utils/data";
 import { BlogCard } from "../BlogCard";
+import { StyledButton } from "../Button/style";
 import { ListProducts } from "../ListProducts";
 import { ContainerCarouselBlog } from "./style";
 
@@ -10,7 +11,7 @@ export const CarouselBlog = () => {
         <h3 className="type15">
           CONFIRA O <strong>NOSSO BLOG</strong>
         </h3>
-        <button className="type7">Ler Todos</button>
+        <StyledButton className="type3">LER TODOS</StyledButton>
       </div>
       <ListProducts>
         {dataBlog.map(elem => (

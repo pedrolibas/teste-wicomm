@@ -50,15 +50,6 @@ export const ContainerCarouselPeople = styled.section`
   }
 
   .redirect {
-    color: var(--black1);
-
-    padding: 14px 24px;
-
-    background-color: var(--orange1);
-
-    border: none;
-    border-radius: 4px;
-
     position: relative;
     left: 571px;
     top: 437px;

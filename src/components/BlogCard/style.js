@@ -30,5 +30,14 @@ div{
         text-transform: uppercase;
         margin: 16px 0 24px 0;
     }
+
+    button{
+      height: 40px;
+      width: 138px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 }
 `

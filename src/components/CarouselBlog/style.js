@@ -20,5 +20,14 @@ export const ContainerCarouselBlog = styled.section`
     strong {
       color: var(--orange1);
     }
+
+    button{
+      height: 40px;
+      width: 127px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 `;
