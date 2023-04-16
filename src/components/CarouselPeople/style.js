@@ -43,8 +43,8 @@ export const ContainerCarouselPeople = styled.section`
     }
     li {
       img {
-        width: 267px;
-        height: 284px;
+        width: 277px;
+        height: 294px;
       }
     }
   }
