@@ -10,6 +10,7 @@ import { Scroll } from "../../components/Scroll";
 import { CarouselPeople } from "../../components/CarouselPeople";
 import { CarouselBlog } from "../../components/CarouselBlog";
 import { SectionObjective } from "../../components/SectionObjective";
+import { SectionBenefits } from "../../components/SectionBenefits";
 
 export const Home = () => {
   return (
@@ -53,7 +54,8 @@ export const Home = () => {
         <Scroll />
       </section>
       <CarouselBlog />
-      <SectionObjective/>
+      <SectionObjective />
+      <SectionBenefits />
     </ContainerHome>
   );
 };
