@@ -11,7 +11,7 @@ export const ContainerListProducts = styled.ul`
 
   padding: 0 56px;
 
-  button {
+  .button-list {
     width: 32px;
     height: 32px;
 

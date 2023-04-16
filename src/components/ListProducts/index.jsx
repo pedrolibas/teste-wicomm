@@ -5,9 +5,9 @@ import arrowLeft from "../../assets/ArrowLeft.svg"
 export const ListProducts = ({children}) => {
     return (
         <ContainerListProducts>
-            <button className="left"><img src={arrowLeft} alt="" /></button>
+            <button className="button-list left"><img src={arrowLeft} alt="" /></button>
             {children}
-            <button className="right"><img src={arrowRight} alt="" /></button>
+            <button className="button-list right"><img src={arrowRight} alt="" /></button>
         </ContainerListProducts>
     )
 }
