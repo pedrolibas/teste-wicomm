@@ -9,6 +9,7 @@ import { ProductCard } from "../../components/ProductCard";
 import { Scroll } from "../../components/Scroll";
 import { CarouselPeople } from "../../components/CarouselPeople";
 import { CarouselBlog } from "../../components/CarouselBlog";
+import { SectionObjective } from "../../components/SectionObjective";
 
 export const Home = () => {
   return (
@@ -52,6 +53,7 @@ export const Home = () => {
         <Scroll />
       </section>
       <CarouselBlog />
+      <SectionObjective/>
     </ContainerHome>
   );
 };
