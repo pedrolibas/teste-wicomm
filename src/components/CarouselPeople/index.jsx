@@ -2,6 +2,7 @@ import { ContainerCarouselPeople } from "./style";
 import backgroundImg from "../../assets/backgroudPeople.png";
 import { ListProducts } from "../ListProducts";
 import { dataPeople } from "../../utils/data";
+import { StyledButton } from "../Button/style";
 
 export const CarouselPeople = () => {
   return (
@@ -17,7 +18,7 @@ export const CarouselPeople = () => {
           </li>
         ))}
       </ListProducts>
-      <button className="type7 redirect">VER TODOS</button>
+      <StyledButton className="type7 redirect">VER TODOS</StyledButton>
     </ContainerCarouselPeople>
   );
 };

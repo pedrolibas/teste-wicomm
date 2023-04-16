@@ -36,18 +36,9 @@ export const ContainerHero = styled.section`
   }
 
   button {
-    padding: 14px 24px;
-
-    background-color: var(--orange1);
-
-    border: none;
-    border-radius: 4px;
-
     position: absolute;
     top: 370px;
     left: 155px;
-
-    cursor: pointer;
   }
 
   .scroll {
