@@ -8,15 +8,14 @@ export const ContainerHome = styled.div`
     margin-top: 56px;
   }
 
-  .scroll {
+  .list-release .scroll,
+  .list-promotion .scroll {
     margin: 71px auto;
   }
 
   .list-release h2,
   .list-promotion h2 {
-    h2 {
-      text-align: center;
-      margin: 64px 0 24px 0;
-    }
+    text-align: center;
+    margin: 64px 0 24px 0;
   }
 `;
