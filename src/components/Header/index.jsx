@@ -25,11 +25,21 @@ export const Header = () => {
           <li className="type3">
             <a href="#category">CATEGORIAS</a>
           </li>
-          <li className="type3">VESTUÁRIO</li>
-          <li className="type3">OBJETIVOS</li>
-          <li className="type3">PROMOÇÕES</li>
-          <li className="type3">ATLETAS</li>
-          <li className="type3">ASSINATURA</li>
+          <li className="type3">
+            <a href="#release">VESTUÁRIO</a>
+          </li>
+          <li className="type3">
+            <a href="#objective">OBJETIVOS</a>
+          </li>
+          <li className="type3">
+            <a href="#promotion">PROMOÇÕES</a>
+          </li>
+          <li className="type3">
+            <a href="#people">ATLETAS</a>
+          </li>
+          <li className="type3">
+            <a href="#benefits">ASSINATURA</a>
+          </li>
         </ul>
         <form>
           <input type="text" placeholder="Buscar" />

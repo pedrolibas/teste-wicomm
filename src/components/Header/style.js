@@ -64,9 +64,11 @@ export const ContainerHeader = styled.header`
       li {
         padding: 0 14px;
 
-        a{
+        a {
           text-decoration: none;
           color: var(--gray1);
+
+          cursor: pointer;
         }
       }
     }
@@ -110,6 +112,7 @@ export const ContainerHeader = styled.header`
       gap: 14px;
 
       img {
+        cursor: pointer;
       }
     }
   }

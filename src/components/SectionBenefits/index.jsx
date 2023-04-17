@@ -5,7 +5,7 @@ import moneyIcon from "../../assets/BenefitsImage/money.svg";
 
 export const SectionBenefits = () => {
   return (
-    <ContainerSectionBenefits>
+    <ContainerSectionBenefits id="benefits">
       <div>
         <h2 className="type12 roboto">
           GARANTA O <strong>FRETE GRÁTIS</strong>

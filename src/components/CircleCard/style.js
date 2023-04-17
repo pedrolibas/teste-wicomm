@@ -4,6 +4,8 @@ export const ContainerCircleCard = styled.li`
   width: 178px;
   height: 210px;
 
+  cursor: pointer;
+
   div {
     width: inherit;
     height: 178px;

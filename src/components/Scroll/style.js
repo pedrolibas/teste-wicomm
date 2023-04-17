@@ -11,6 +11,8 @@ export const ContainerScroll = styled.div`
     width: 40px;
     height: 2px;
     background-color: var(--gray2);
+
+    cursor: pointer;
   }
 
   .activate {
