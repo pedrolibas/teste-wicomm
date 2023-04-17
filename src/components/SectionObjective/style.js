@@ -31,7 +31,8 @@ export const ContainerSectionObjective = styled.section`
         width: 212px;
         height: 40px;
 
-        background-color: var(--orange1);
+        background-image: url("./imgRetangle.png");
+        background-repeat: no-repeat;
 
         position: absolute;
         left: 0;

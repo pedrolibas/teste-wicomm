@@ -10,6 +10,8 @@ export const ContainerHero = styled.section`
     height: inherit;
 
     position: absolute;
+
+    object-fit: cover;
   }
 
   h2 {
@@ -44,6 +46,9 @@ export const ContainerHero = styled.section`
   .scroll {
     position: absolute;
     top: 510px;
-    left: 570px;
+    left: 0;
+    right: 0;
+
+    margin: auto;
   }
 `;

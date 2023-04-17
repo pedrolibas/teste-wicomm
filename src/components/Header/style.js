@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const ContainerHeader = styled.header`
+  width: 100%;
+
+  position: fixed;
+  z-index: 10;
   section {
     width: calc(100% - 56px - 56px);
     height: 32px;
@@ -58,9 +62,12 @@ export const ContainerHeader = styled.header`
       justify-content: space-between;
 
       li {
-        color: var(--gray1);
-
         padding: 0 14px;
+
+        a{
+          text-decoration: none;
+          color: var(--gray1);
+        }
       }
     }
 
