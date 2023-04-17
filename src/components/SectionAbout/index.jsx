@@ -1,5 +1,5 @@
 import { ContainerSectionAbout } from "./style";
-import logo from "../../assets/logo2.svg";
+import logo from "../../assets/logos/logo2.svg";
 
 export const SectionAbout = () => {
   return (

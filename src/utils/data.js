@@ -1,11 +1,11 @@
-import imgTypeProduct from "../assets/typeProduct1.png";
-import imgProduct from "../assets/product.png";
-import people1 from "../assets/people1.png";
-import people2 from "../assets/people2.png";
-import people3 from "../assets/people3.png";
-import blog1 from "../assets/blog1.png";
-import blog2 from "../assets/blog2.png";
-import blog3 from "../assets/blog3.png";
+import imgTypeProduct from "../assets/typeProduct/typeProduct1.png";
+import imgProduct from "../assets/products/product.png";
+import people1 from "../assets/peoplesImage/people1.png";
+import people2 from "../assets/peoplesImage/people2.png";
+import people3 from "../assets/peoplesImage/people3.png";
+import blog1 from "../assets/BlogImage/blog1.png";
+import blog2 from "../assets/BlogImage/blog2.png";
+import blog3 from "../assets/BlogImage/blog3.png";
 
 export const dataTypeProducts = [
   { img: imgTypeProduct, name: "PROTEÍNAS" },

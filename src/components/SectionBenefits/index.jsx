@@ -1,7 +1,7 @@
 import { ContainerSectionBenefits } from "./style";
 import { StyledButton } from "../Button/style";
-import packageIcon from "../../assets/package.svg";
-import moneyIcon from "../../assets/money.svg";
+import packageIcon from "../../assets/BenefitsImage/package.svg";
+import moneyIcon from "../../assets/BenefitsImage/money.svg";
 
 export const SectionBenefits = () => {
   return (

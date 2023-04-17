@@ -1,5 +1,5 @@
 import { ContainerHero } from "./style";
-import backgroundImage from "../../assets/heroImage.jpg";
+import backgroundImage from "../../assets/heroImage/heroImage.jpg";
 import { Scroll } from "../Scroll";
 import { StyledButton } from "../Button/style";
 

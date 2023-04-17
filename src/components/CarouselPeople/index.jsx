@@ -1,5 +1,5 @@
 import { ContainerCarouselPeople } from "./style";
-import backgroundImg from "../../assets/backgroudPeople.png";
+import backgroundImg from "../../assets/peoplesImage/backgroudPeople.png";
 import { ListProducts } from "../ListProducts";
 import { dataPeople } from "../../utils/data";
 import { StyledButton } from "../Button/style";

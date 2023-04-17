@@ -1,7 +1,6 @@
 import { ContainerProductCard } from "./style";
-import imgProduct from "../../assets/product.png";
-import starIcon from "../../assets/star.svg";
-import cartIcon from "../../assets/ShoppingCart2.svg";
+import starIcon from "../../assets/icons/star.svg";
+import cartIcon from "../../assets/icons/ShoppingCart2.svg";
 
 export const ProductCard = ({ img, name, price, installments }) => {
   return (
