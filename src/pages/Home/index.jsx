@@ -18,7 +18,7 @@ export const Home = () => {
     <ContainerHome>
       <Header />
       <Hero />
-      <section className="list-type">
+      <section className="list-type" id="category">
         <ListProducts>
           {dataTypeProducts.map(elem => (
             <CircleCard img={elem.img} name={elem.name} />

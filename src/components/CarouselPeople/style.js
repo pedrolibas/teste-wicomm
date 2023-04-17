@@ -50,8 +50,13 @@ export const ContainerCarouselPeople = styled.section`
   }
 
   .redirect {
-    position: relative;
-    left: 571px;
+    position: absolute;
+    left: 0;
+    right: 0;
     top: 437px;
+
+    margin: auto; 
+
+    width: 139px;
   }
 `;

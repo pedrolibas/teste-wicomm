@@ -14,6 +14,10 @@ export const GlobalStyle = createGlobalStyle`
     --background: #F1F1F1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 div,

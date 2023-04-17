@@ -22,7 +22,9 @@ export const Header = () => {
       <nav>
         <img src={logo} alt="" className="logo" />
         <ul>
-          <li className="type3">CATEGORIAS</li>
+          <li className="type3">
+            <a href="#category">CATEGORIAS</a>
+          </li>
           <li className="type3">VESTUÁRIO</li>
           <li className="type3">OBJETIVOS</li>
           <li className="type3">PROMOÇÕES</li>

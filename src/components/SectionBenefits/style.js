@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerSectionBenefits = styled.section`
   width: calc(100% - 155px - 155px);
 
-  padding: 0 156px;
+  padding: 0 155px;
   margin-top: 64px;
 
   display: flex;
