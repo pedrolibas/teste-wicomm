@@ -26,7 +26,7 @@ export const Home = () => {
           ))}
         </ListProducts>
       </section>
-      <section className="list-release">
+      <section className="list-release" id="release">
         <h2 className="type15">LANÇAMENTOS</h2>
         <ListProducts>
           {dataReleaseProducts.map(elem => (
@@ -41,7 +41,7 @@ export const Home = () => {
         <Scroll />
       </section>
       <CarouselPeople />
-      <section className="list-promotion">
+      <section className="list-promotion" id="promotion">
         <h2 className="type15">PROMOÇÕES</h2>
         <ListProducts>
           {dataReleaseProducts.map(elem => (

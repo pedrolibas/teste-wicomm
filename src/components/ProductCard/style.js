@@ -7,6 +7,8 @@ export const ContainerProductCard = styled.li`
     border: 1px solid var(--background);
     border-radius: 4px;
 
+    cursor: pointer;
+
     div{
         width: inherit;
         height: 197px;

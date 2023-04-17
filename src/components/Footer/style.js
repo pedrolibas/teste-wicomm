@@ -55,6 +55,8 @@ export const ContainerFooter = styled.footer`
         img {
           width: 24px;
           height: 24px;
+
+          cursor: pointer;
         }
       }
     }
@@ -94,6 +96,8 @@ export const ContainerFooter = styled.footer`
         line-height: 16.8px;
 
         width: 160px;
+
+        cursor: pointer;
       }
     }
   }
@@ -112,6 +116,12 @@ export const ContainerFooter = styled.footer`
       flex-wrap: wrap;
 
       width: 218px;
+
+      li{
+        img{
+          cursor: pointer;
+        }
+      }
     }
   }
 
@@ -128,6 +138,12 @@ export const ContainerFooter = styled.footer`
     ul {
       display: flex;
       gap: 10px;
+
+      li{
+        img{
+          cursor: pointer;
+        }
+      }
     }
   }
 

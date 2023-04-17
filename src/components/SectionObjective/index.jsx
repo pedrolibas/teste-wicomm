@@ -6,7 +6,7 @@ import imgObjective4 from "../../assets/objectivesImage/objective4.png";
 
 export const SectionObjective = () => {
   return (
-    <ContainerSectionObjective>
+    <ContainerSectionObjective id="objective">
       <h2 className="type15">OBJETIVOS</h2>
       <ul>
       <li>

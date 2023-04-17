@@ -6,7 +6,7 @@ import { StyledButton } from "../Button/style";
 
 export const CarouselPeople = () => {
   return (
-    <ContainerCarouselPeople>
+    <ContainerCarouselPeople id="people">
       <img src={backgroundImg} alt="" className="background" />
       <h2 className="type12">
         CONHEÇA A TROPA <strong>BLACK SKULL</strong>

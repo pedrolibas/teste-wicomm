@@ -11,4 +11,10 @@ export const StyledButton = styled.button`
   color: var(--black1);
 
   cursor: pointer;
+
+  &:hover{
+    transition: 1ms;
+
+    background-color: var(--orange2);
+  }
 `;
