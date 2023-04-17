@@ -14,7 +14,7 @@ export const ContainerHero = styled.section`
     object-fit: cover;
   }
 
-  h2 {
+  h1 {
     width: 551px;
 
     color: var(--white);

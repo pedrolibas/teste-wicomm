@@ -12,6 +12,7 @@ import { CarouselBlog } from "../../components/CarouselBlog";
 import { SectionObjective } from "../../components/SectionObjective";
 import { SectionBenefits } from "../../components/SectionBenefits";
 import { SectionAbout } from "../../components/SectionAbout";
+import { Footer } from "../../components/Footer";
 
 export const Home = () => {
   return (
@@ -58,6 +59,7 @@ export const Home = () => {
       <SectionObjective />
       <SectionBenefits />
       <SectionAbout />
+      <Footer/>
     </ContainerHome>
   );
 };
