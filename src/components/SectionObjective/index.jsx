@@ -1,8 +1,8 @@
 import { ContainerSectionObjective } from "./style";
-import imgObjective1 from "../../assets/objective1.png";
-import imgObjective2 from "../../assets/objective2.png";
-import imgObjective3 from "../../assets/objective3.png";
-import imgObjective4 from "../../assets/objective4.png";
+import imgObjective1 from "../../assets/objectivesImage/objective1.png";
+import imgObjective2 from "../../assets/objectivesImage/objective2.png";
+import imgObjective3 from "../../assets/objectivesImage/objective3.png";
+import imgObjective4 from "../../assets/objectivesImage/objective4.png";
 
 export const SectionObjective = () => {
   return (

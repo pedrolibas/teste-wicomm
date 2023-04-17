@@ -1,10 +1,10 @@
 import { ContainerHeader } from "./style";
-import truckIcon from "../../assets/truck.svg";
-import logo from "../../assets/logo.svg";
-import magnifyingGlassIcon from "../../assets/MagnifyingGlass.svg";
-import userIcon from "../../assets/User.svg";
-import starIcon from "../../assets/star.svg";
-import shoppingCartIcon from "../../assets/ShoppingCart.svg";
+import truckIcon from "../../assets/icons/truck.svg";
+import logo from "../../assets/logos/logo.svg";
+import magnifyingGlassIcon from "../../assets/icons/MagnifyingGlass.svg";
+import userIcon from "../../assets/icons/User.svg";
+import starIcon from "../../assets/icons/star.svg";
+import shoppingCartIcon from "../../assets/icons/ShoppingCart.svg";
 
 export const Header = () => {
   return (

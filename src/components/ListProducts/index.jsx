@@ -1,6 +1,6 @@
 import { ContainerListProducts } from "./style"
-import arrowRight from "../../assets/ArrowRight.svg"
-import arrowLeft from "../../assets/ArrowLeft.svg"
+import arrowRight from "../../assets/icons/ArrowRight.svg"
+import arrowLeft from "../../assets/icons/ArrowLeft.svg"
 
 export const ListProducts = ({children}) => {
     return (
